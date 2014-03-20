@@ -29,6 +29,16 @@ With this configuration on resource path:
 
 The above example would print `hi cyg`.
 
+## Auto reload
+
+By default, config is only loaded once on startup. If you'd like to enable
+auto-reload (useful during dev), run:
+
+```clojure
+(cyg.core/autoreload!)
+```
+
+
 ## TODO
 
 - A companion lein plugin to help with config setup.

@@ -1,9 +1,8 @@
 # cyg
 
-Minimalist configuration. Expects a `config.edn` or `config.clj` path to
-be available as a resource.
-
-Use Leiningen profiles to specify how config gets on the resource paths.
+Minimalist configuration. Expects a `config.edn` or `config.clj` path to be
+available as a resource. Use Leiningen profiles to specify how config gets on
+the resource paths.
 
 **Warning**: wet paint. A companion lein plugin is planned to help with config
 setup.

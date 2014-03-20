@@ -31,8 +31,8 @@ The above example would print `hi cyg`.
 
 ## TODO
 
-- [ ] A companion lein plugin to help with config setup.
-- [ ] By default, cyg should setup `config/:profile` resource-paths for `dev`
+- A companion lein plugin to help with config setup.
+- By default, cyg should setup `config/:profile` resource-paths for `dev`
   and `prod`, so if you place `config.edn` at `config/dev/config.edn` cyg will
   load it when the Leiningen `dev` profile is active.
 

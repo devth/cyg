@@ -7,7 +7,7 @@ the resource paths.
 **Warning**: wet paint.
 
 ```clojure
-[cyg "0.1.3"]
+[cyg "0.1.4"]
 ```
 
 ## Usage

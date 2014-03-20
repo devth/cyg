@@ -25,4 +25,4 @@
 
 (defn cf [& ks]
   (when @autoreload (reload-config))
-  (get-in config ks nil))
+  (get-in @config ks nil))

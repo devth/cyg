@@ -5,13 +5,11 @@
 
 (def ^:private autoreload (atom false))
 
-(defn- autoreload!
-  ([should-autoreload] (reset! autoreload should-autoreload))
-  ([] (autoreload! true)))
-
 (def ^:private config-resource (or (resource "config.edn") (resource "config.clj")))
 
 (def ^:private config (atom {}))
+
+; public
 
 (defn reload-config []
   (reset! config (try
@@ -20,6 +18,10 @@
                      (println "Unable to parse config: " e)))))
 
 (reload-config)
+
+(defn autoreload!
+  ([should-autoreload] (reset! autoreload should-autoreload))
+  ([] (autoreload! true)))
 
 (defn cf [& ks]
   (when @autoreload (reload-config))

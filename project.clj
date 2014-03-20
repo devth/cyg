@@ -1,4 +1,4 @@
-(defproject cyg "0.1.1"
+(defproject cyg "0.1.2-SNAPSHOT"
   :description "Minimalist config for Clojure"
   :url "https://github.com/devth/cyg"
   :lein-release {:deploy-via :clojars}

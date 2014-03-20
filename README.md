@@ -5,6 +5,12 @@ available as a resource.
 
 Use Leiningen profiles to specify how config gets on the resource paths.
 
+**Warning**: wet paint. A companion lein plugin is planned to help with config
+setup.
+
+```clojure
+[cyg "0.1.0"]
+```
 
 ## License
 

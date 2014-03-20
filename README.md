@@ -2,7 +2,8 @@
 
 Minimalist configuration. Expects a `config.edn` or `config.clj` path to be
 available as a resource. Use Leiningen profiles to specify how config gets on
-the resource paths.
+the resource paths. By default, cyg sets up `config/:profile` resource-paths for
+`dev` and `prod`.
 
 **Warning**: wet paint. A companion lein plugin is planned to help with config
 setup.

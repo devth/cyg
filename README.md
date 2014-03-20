@@ -9,7 +9,7 @@ the resource paths. By default, cyg sets up `config/:profile` resource-paths for
 setup.
 
 ```clojure
-[cyg "0.1.0"]
+[cyg "0.1.1"]
 ```
 
 ## Usage
